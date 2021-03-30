@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*
+    This stylesheet is dedicated to the sub-components of this website. The webpage that these components reside
+    in is the site.php entry point. This file is dedicated to those components
+ */
+
+@import "extension.css";
+
+/* Component 01 - Navigation Bar - Bootstrap */
+body.main-body-entry > div.navigation-menu nav.navbar {
+    background-color: black;
+}
+
+body.main-body-entry > div.navigation-menu > nav.navbar div.container-fluid {
+    background-color: #0c0c0c;
+    opacity: 0.9;
+    font-family: "Orbitron", sans-serif;
+    color: whitesmoke;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 0 10px lawngreen;
+    -webkit-animation: nav-bar-onload 2.5s ease-in;
+    animation-fill-mode: forwards;
+}
+
+/* Component 02 - Jumbotron - Bootstrap */
+body.main-body-entry > div.jumbotron-title > div.container div.jumbotron {
+    margin-top: 65px;
+    padding: 70px;
+    background-color: #191919;
+    border-radius: 18px;
+    box-shadow: 0 0 5px lawngreen;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* Sub component 01 - Jumbotron header title */
+body.main-body-entry > div.jumbotron-title > div.container > div.jumbotron h1.site-title {
+    color: whitesmoke;
+}
+
+body.main-body-entry > div.jumbotron-title > div.container > div.jumbotron p#meta-context {
+    color: ghostwhite;
+}
+
+/* Meta components */
+.affix {
+    opacity: 0.9;
+}
+
+.affix + .container-fluid {
+
+}
