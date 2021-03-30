@@ -2,9 +2,9 @@
 session_start();
 
 // Configure DBS
-define("DB_SERVER", "localhost");
-define("DB_USERNAME", "s1lent");
-define("DB_PASSWORD", "400115ed!@ab01x");
+define("DB_SERVER", "");
+define("DB_USERNAME", "");
+define("DB_PASSWORD", "");
 define("DB_NAME", "S1_SS");
 
 // Create uplink
